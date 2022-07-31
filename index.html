@@ -7,19 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Testimonial Grid Project</title>
+    <title>Testimonial Grid</title>
   </head>
   <body class="bg-gray-200">
     <!-- Global Container -->
     <div class="container mx-auto max-w-7xl p-2 md:p-10">
       <!-- Grid Container -->
-      <div class="text-white">
+      <div
+        class="grid gap-6 grid-cols-1 text-white md:grid-cols-4 md:grid-rows-2"
+      >
         <!-- Box 1 -->
-        <div class="relative p-10 rounded-xl bg-purple-700">
+        <div class="relative p-10 rounded-xl bg-purple-700 md:col-span-2">
           <!-- Quotes Image -->
           <img
             src="images/bg-pattern-quotation.svg"
@@ -34,10 +36,11 @@
               class="w-10 h-10 rounded-full ring-2 ring-purple-300"
             />
             <div class="text-sm">
-              <h4 class="opacity-90">Dainel Clifford</h4>
+              <h4 class="opacity-90">Daniel Clifford</h4>
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="relative z-10 mt-6 text-xl">
             I received a job offer mid-course, and the subjects I learned were
@@ -46,7 +49,7 @@
           </p>
 
           <!-- Small Text -->
-          <p class="mt-6 opacity-50">
+          <p class="mt-6 opacity-50 line-clamp-6">
             "I was an EMT for many years before I joined the bootcamp. I've been
             looking to make a transition and have heard some people who had an
             amazing experience here. I signed up for the free intro course and
@@ -77,13 +80,14 @@
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="mt-6 text-xl">
             The team was very supportive and kept me motivated
           </p>
 
           <!-- Small Text -->
-          <p class="mt-6 opacity-50">
+          <p class="mt-6 opacity-50 line-clamp-5">
             "I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I've made in myself. Lorem ipsum dolor sit amet
@@ -97,7 +101,9 @@
         </div>
 
         <!-- Box 3 -->
-        <div class="hidden p-10 rounded-xl text-gray-900 bg-white md:block">
+        <div
+          class="hidden p-10 rounded-xl text-gray-900 bg-white md:block md:row-span-2"
+        >
           <!-- Box Header -->
           <div class="flex space-x-4">
             <img
@@ -110,6 +116,7 @@
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="mt-6 text-xl">
             Such a life-changing experience. Highly recommended!
@@ -146,6 +153,7 @@
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="mt-6 text-xl">
             An overall wonderful and rewarding experience
@@ -159,7 +167,7 @@
         </div>
 
         <!-- Box 5 -->
-        <div class="p-10 rounded-xl bg-gray-900">
+        <div class="p-10 rounded-xl bg-gray-900 md:col-span-2">
           <!-- Box Header -->
           <div class="flex space-x-4">
             <img
@@ -172,6 +180,7 @@
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="mt-6 text-xl">
             Awesome teaching support from TAs who did the bootcamp themselves.
@@ -190,7 +199,7 @@
           </p>
         </div>
 
-        <!-- Box  6-->
+        <!-- Box 6 -->
         <div class="p-10 rounded-xl text-gray-900 bg-white md:hidden">
           <!-- Box Header -->
           <div class="flex space-x-4">
@@ -204,6 +213,7 @@
               <p class="opacity-50">Verified Graduate</p>
             </div>
           </div>
+
           <!-- Large Text -->
           <p class="mt-6 text-xl">
             Such a life-changing experience. Highly recommended!
